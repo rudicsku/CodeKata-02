@@ -2,9 +2,9 @@ package org.example;
 
 import java.util.Arrays;
 
-public class Solution {
+public class BinarySearch {
 
-    public static int binarySearchImperative(int array[], int element) {
+    public static int binarySearchImperative(int[] array, int element) {
         int low = 0;
         int high = array.length - 1;
         //If the array is not sorted
